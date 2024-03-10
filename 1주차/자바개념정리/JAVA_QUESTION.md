@@ -11,7 +11,8 @@
 <details>
 <summary>오버라이딩(OverRiding)과 오버로딩(OverLoading)에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+오버라이딩(OverRiding)은 상위 클래스의 메서드를 하위 클래스에서 재정의하여 사용하는 것이다.
+오버로딩(OverLoading)은 이름이 같은 메서드를 매개변수의 타입과 갯수에 따라 여러 개를 정의하는 것이다. 메서드를 호출할 때의 매개변수에 따라 맞는 메서드가 호출되는 방식이다.
 </div>
 </details>
 <br>
