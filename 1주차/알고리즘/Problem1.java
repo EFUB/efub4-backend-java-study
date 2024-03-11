@@ -14,6 +14,7 @@ public class Main{
             if(H<0){
                 H = 23;
             }
+            
             System.out.println(H + " " + M);
         }
         else{
