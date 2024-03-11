@@ -3,7 +3,7 @@
 <details>
 <summary>Java에서 제공하는 원시 타입들에 무엇이 있고, 각각 몇 바이트를 차지하나요?</summary>
 <div markdown="1">
-// boolean(1비트), char(2바이트), byte(1바이트), short(2바이트), int(4바이트), long(8바이트), float(4바이트), double(8바이트)
+boolean(1비트), char(2바이트), byte(1바이트), short(2바이트), int(4바이트), long(8바이트), float(4바이트), double(8바이트)
 </div>
 </details>
 <br>
