@@ -3,7 +3,19 @@
 <details>
 <summary>Java에서 제공하는 원시 타입들에 무엇이 있고, 각각 몇 바이트를 차지하나요?</summary>
 <div markdown="1">
-// 내용 입력
+  <br>
+  * 논리형: boolean(1Byte)
+  <br>
+  * 문자형: char(2Byte)
+  <br>
+  * 정수형: byte(1Byte), short(2Byte), int(4Byte), long(8Byte)
+  <br>
+  * 실수형: float(4Byte), double(8Byte)
+  <br>
+  > 원시 타입: 정수, 실수, 문자, 불린 등 실제 데이터 값을 저장하는 타입
+  <br>
+  > 참조 타입: 문자열, 배열, 열거, 클래스, 인터페이스
+  <br>
 </div>
 </details>
 <br>
@@ -11,7 +23,11 @@
 <details>
 <summary>오버라이딩(OverRiding)과 오버로딩(OverLoading)에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+  <br>
+  * 오버라이딩: 부모 클래스에서 상속받은 메서드를 자식 클래스에서 재정의하여 다르게 구현하는 것.
+  <br>
+  * 오버로딩: 한 클래스 내에 이름이 같고 매개변수의 자료형이나 개수가 다른 메서드를 여러 개 선언하는 것. 리턴 타입은 오버로딩과 관련 없다.
+  <br>
 </div>
 </details>
 <br>
@@ -19,7 +35,9 @@
 <details>
 <summary>객체지향 프로그래밍(OOP)에 대해 설명해주세요</summary>
 <div markdown="1">
-// 내용 입력
+  <br>
+  * 객체지향 프로그래밍: 프로그래밍에서 필요한 데이터를 추상화시켜 상태와 행위를 가진 객체로 만들고, 객체들간의 상호작용을 통해 로직을 구성하는 프로그래밍 기법. 객체지향 프로그래밍의 4가지 특징은 추상화, 상속, 다형성, 캡슐화이다.
+  <br>
 </div>
 </details>
 <br>
@@ -27,7 +45,13 @@
 <details>
 <summary>추상 클래스와 인터페이스에 대해 설명해주시고, 차이에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+  <br>
+  * 추상 클래스: 
+  <br>
+  * 인터페이스: 
+  <br>
+  * 각각의 차이점:
+  <br>
 </div>
 </details>
 <br>
