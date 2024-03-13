@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class sortinside {
+public class Main {
 	public static void main(String[] args) {
 		int a = 0;
 		int[] b = new int[10];

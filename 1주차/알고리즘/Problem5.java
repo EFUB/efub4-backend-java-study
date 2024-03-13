@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
 		int n, k;
 		int c = 0;
