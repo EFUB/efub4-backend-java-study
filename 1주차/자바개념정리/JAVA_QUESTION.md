@@ -76,7 +76,11 @@ Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메�
 <details>
 <summary>자바의 메모리 영역에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+1. Static Area(Method Area): 클래스 변수나, static 으로 선언된 것들이 저장됨 <br/>
+2. Heap Area: new를 사용해 객체를 생성할 때 or 참조형 데이터 타입이 저장된다. Reference를 통해서만 Heap 영역의 데이터들에 접근, 핸들링 할 수 있다. 가비지 컬렉터에 의해 메모리에서 해제된다. 쓰레드가 몇개가 존재하든, 단 하나의 영역만 존재한다. (≠ Stack) <br/>
+3. Stack Area: 기본 자료형(원시 자료형, Primitive type), 지역변수, 매개변수가 저장됨. Heap 영역에 생성된 데이터의 참조값이 할당됨. 메소드가 호출될 때 할당, 메서드 종료시 삭제. Stack 구조이며, 각 쓰레드마다 자신만의 stack을 가진다. <br/>
+4. PC Register: 스레드가 생성되면서 생기는 공간. 스레드가 어느 명령어를 처리하고 있는지 그 주소를 등록한다. JVM이 실행하고 있는 현재 위치를 저장하는 역할. <br/>
+5. Native Method Stack: Java 가 아닌 다른 언어 (C, C++) 로 구성된 메소드의 실행이 필요할 때 사용되는 공간 <br/>
 </div>
 </details>
 <br>
@@ -84,7 +88,8 @@ Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메�
 <details>
 <summary>new String()과 리터럴(" ")의 차이에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+- new String(): 객체로 생성, Heap메모리 영역에 저장 <br/>
+- 리터럴: String constant pool 영역에 생성. 리터럴을 사용하여 생성할 때 constant pool에 같은 값이 존재한다면 생성되는 객체는 이미 존재하고 있는 값을 참조하게 된다. <br/>
 </div>
 </details>
 <br>
@@ -92,7 +97,7 @@ Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메�
 <details>
 <summary>⭐️ 추가 과제: 람다(lambda)에 대해 알아볼까요?</summary>
 <div markdown="1">
-// 내용 입력
+ 메서드를 "하나의 식"으로 표현한 것. 메서드를 변수처럼 다루는 것을 가능하게 함. <br/>
 </div>
 </details>
 <br>
@@ -100,7 +105,8 @@ Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메�
 <details>
 <summary>⭐️ 추가 과제: 스트림(stream)에 대해 알아볼까요?</summary>
 <div markdown="1">
-// 내용 입력
+- 람다를 활용해 배열과 컬렉션을 함수형으로 간단하게 처리할 수 있는 기술. <br/>
+- 스트림은 데이터 소스를 추상화하고, 데이터를 다루는데 자주 사용되는 메소드를 정의해 놓아서 데이터 소스에 상관없이 모두 같은 방식으로 다룰 수 있으므로 코드의 재사용성이 높아진다. <br/>
 </div>
 </details>
 <br>
