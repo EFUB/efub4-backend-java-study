@@ -51,7 +51,7 @@
 <details>
 <summary>가비지 컬렉션(gc)란 무엇일까요?</summary>
 <div markdown="1">
-// 내용 입력
+Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메모리 객체를 모아 주기적으로 제거하는 프로세스
 </div>
 </details>
 <br>
@@ -59,7 +59,7 @@
 <details>
 <summary>JVM의 동작 방식에 대해 설명해 주세요.</summary>
 <div markdown="1">
-// 내용 입력
+- JVM의 동작 방식: 실제 컴퓨터로 부터 JAVA 어플리케이션 실행을 위한 메모리를 할당 받아 Runtime Data Area를 구성한다. JVM은 인터프리터와 JIT 컴파일러를 통해 바이트 코드를 각 운영체제에 맞는 기계어로 해석시켜 실행시키고, 가비지 콜렉터를 통해 어플리케이션의 동적 메모리를 관리한다. <br/>
 </div>
 </details>
 <br>
@@ -67,7 +67,8 @@
 <details>
 <summary>불변 객체란 무엇이고, final은 무엇일까요? 사용하는 이유와 함께 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+- 불변 객체: 불변 객체란 객체 생성 이후 내부의 상태가 변하지 않는 객체이다. 불변 객체는 read-only 메소드만을 제공하며, 객체의 내부 상태를 제공하는 메소드를 제공하지 않거나 방어적 복사(defensive-copy)를 통해 제공한다. Java의 대표적인 불변 객체로는 String이 있다 <br/>
+- final: 여러 컨텍스트에서 단 한 번만 할당될 수 있는 entity를 정의할 때 사용 <br/>
 </div>
 </details>
 <br>
