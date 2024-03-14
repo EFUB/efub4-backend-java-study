@@ -3,20 +3,19 @@
 <details>
 <summary>Java에서 제공하는 원시 타입들에 무엇이 있고, 각각 몇 바이트를 차지하나요?</summary>
 <div markdown="1">
-// 내용 입력
 - cf) 원시타입: 실제 데이터 값을 저장하는 타입 vs 참조타입: 메모리 번지 값을 통해 객체를 참조하는 타입 <br/>
-1. boolean: 1바이트
-2. char: 2바이트
-3. byte: 1바이트
-4. short: 2바이트
-5. int: 4바이트
-6. long: 8바이트
-7. float: 4바이트
-8. double: 8바이트
-- 1: 논리형
-- 2: 문자형
-- 3-6: 정수형
-- 7-8: 실수형
+1. boolean: 1바이트 <br/>
+2. char: 2바이트 <br/>
+3. byte: 1바이트 <br/>
+4. short: 2바이트 <br/>
+5. int: 4바이트 <br/>
+6. long: 8바이트 <br/>
+7. float: 4바이트 <br/>
+8. double: 8바이트 <br/>
+- 1: 논리형 <br/>
+- 2: 문자형 <br/>
+- 3-6: 정수형 <br/>
+- 7-8: 실수형 <br/>
 </div>
 </details>
 <br>
