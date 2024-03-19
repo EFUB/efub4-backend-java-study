@@ -13,7 +13,11 @@
 <details>
 <summary>OOP의 5대 원칙 (SOLID)에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+SRP(single responsibility principle) : 객체는 단 하나의 책임만 가져야 한다. <br>
+OCP(open closed principle) : 기존 코드 변경 없이 기능 추가할 수 있어야 한다. <br>
+LSP(liskov substituition) : 상속받은 행위(메소드, 필드 등)는 기본적으로 수행할 수 있어야 한다. <br>
+ISP(interface segregation principle) : 사용하지 않는 인터페이스와 영향을 주고받지 않아야 한다. <br>
+DIP(dependency inversion principle) : 각 객체 간 의존 관계에서 추상성이 높은 클래스와 의존 관계를 맺어야 한다. <br>
 </div>
 </details>
 <br>
