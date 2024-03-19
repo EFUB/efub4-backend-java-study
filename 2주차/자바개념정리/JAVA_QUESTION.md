@@ -25,7 +25,7 @@ DIP(dependency inversion principle) : 각 객체 간 의존 관계에서 추상�
 <details>
 <summary>non-static 멤버와 static 멤버의 차이에 대해 설명해주세요.</summary>
 <div markdown="1">
-// 내용 입력
+static 멤버는 non-static 멤버와 달리 객체를 생성하지 않고 사용할 수 있는 멤버이다. 만약 class A의 static 메소드 b()를 실행할 때, A.b()와 같이 사용할 수 있다. 따라서 메소드 영역에 저장되고 힙 영역에는 저장되지 않으며, 클래스 멤버라고 한다.
 </div>
 </details>
 <br>
