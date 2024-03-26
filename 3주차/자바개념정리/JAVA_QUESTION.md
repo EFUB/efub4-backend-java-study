@@ -29,6 +29,7 @@
 <details>
 <summary>직렬화란 무엇인가요?</summary>
 <div markdown="1">
+객체를 전송하여 다른 시스템에서도 사용할 수 있도록 바이트 스트림으로 변환/복원하는 매커니즘이다. 
 </div>
 </details>
 <br>
