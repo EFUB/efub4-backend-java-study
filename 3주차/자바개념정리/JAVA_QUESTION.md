@@ -20,6 +20,8 @@
 <details>
 <summary>자바의 클래스 멤버 변수 초기화 순서에 대해 알려주세요.</summary>
 <div markdown="1">
+1. static 변수 : 클래스가 메소드 영역에 로드될 때 초기화된다
+2. 인스턴스 변수 : 클래스의 객체가 생성될 때 초기화된다.
 </div>
 </details>
 <br>
