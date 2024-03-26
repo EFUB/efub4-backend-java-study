@@ -3,7 +3,7 @@
 <details>
 <summary>POJO란 무엇일까요?</summary>
 <div markdown="1">
- 1. POJO(plain old java object) : 자바 표준 라이브러리만 사용하여 특정 라이브러리에 의존하지 않고 순수한 java 클래스이다. <br>
+1. POJO(plain old java object) : 자바 표준 라이브러리만 사용하여 특정 라이브러리에 의존하지 않고 순수한 java 클래스이다. <br>
 2. 제너릭 : 컴파일 시에 타입 체크를 할 수 있도록 '<>' 괄호 안에 객체를 입력하는 것이다. 타입 관련 오류를 사전에 방지하여 안정성을 높일 수 있다.
 </div>
 </details>
