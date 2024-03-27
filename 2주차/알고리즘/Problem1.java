@@ -8,7 +8,7 @@ class Main {
         String[] arr = {"D", "C", "B", "A", "E"};
         Scanner in = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
-            int sum = 0
+            int sum = 0;
             for (int j = 0; j < 4; j++) {
                 sum += in.nextInt();
             }
