@@ -3,8 +3,9 @@
 <details>
 <summary>POJO란 무엇일까요?</summary>
 <div markdown="1">
-POJO ( Plain Old Java Object) : 자바로 생성하는 순수한 객체
-객체 지향적인 원리에 충실하면서 환경과 기술에 종속되지 않고, 필요에 따라 재활용될 수 있는 방식으로 설계된 오브젝트를 의미한다.
+POJO ( Plain Old Java Object) : 자바로 생성하는 순수한 객체.
+- 객체 지향적인 원리에 충실하면서 환경과 기술에 종속되지 않고, 필요에 따라 재활용될 수 있는 방식으로 설계된 오브젝트를 의미한다.
+- EJB(Enterprise JavaBeans)의 사용과 프로그램의 규모 증가로 특정 기술과 환경에 종속되어 의존하게 된 자바 코드는 가독성이 떨어져 유지보수에 어려움이 생겼다. 또한, 특정 기술의 클래스를 상속받거나, 직접 의존하게 되어 확장성이 매우 떨어지며 점점 객체지향성을 잃어가는 문제점이 있었고 이를 해결하기 위해 POJO가 개발되었다.
 
 public class User {
     private String name;
@@ -16,9 +17,7 @@ public class User {
     	this.name = name;
     }
 }
- 위 코드와 같이 다른 클래스나 인터페이스를 상속/implements 받은 클래스가 아닌 getter, setter 같은 기본적인 형태의 자바 객체를 POJO라고 한다.
-
-EJB(Enterprise JavaBeans)의 사용과 프로그램의 규모 증가로 특정 기술과 환경에 종속되어 의존하게 된 자바 코드는 가독성이 떨어져 유지보수에 어려움이 생겼다. 또한, 특정 기술의 클래스를 상속받거나, 직접 의존하게 되어 확장성이 매우 떨어지며 점점 객체지향성을 잃어가는 문제점이 있었고 이를 해결하기 위해 POJO가 개발되었다.
+위 코드와 같이 다른 클래스나 인터페이스를 상속/implements 받은 클래스가 아닌 getter, setter 같은 기본적인 형태의 자바 객체를 POJO라고 한다.
 </div>
 </details>
 <br>
